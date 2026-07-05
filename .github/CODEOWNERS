@@ -1,0 +1,8 @@
+# CI/CD পাইপলাইনের ফোল্ডার প্রটেক্ট করার জন্য
+/.github/workflows/mamun-zavisoft
+
+# উদাহরণ: পুরো প্রোজেক্টের ডকার ফাইল প্রটেক্ট করার জন্য
+/Dockerfile           @your-github-username
+
+# উদাহরণ: কোনো নির্দিষ্ট ইনফ্রাস্ট্রাকচার বা টেরাফর্ম ফোল্ডার প্রটেক্ট করার জন্য
+/terraform/mamun-zavisoft
