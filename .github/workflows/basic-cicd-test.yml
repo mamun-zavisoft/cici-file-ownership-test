@@ -3,9 +3,7 @@ name: Continuous Integration
 on:
   push:
     branches:
-      - develop
-      - staging
-      - main
+      - dev
 
 permissions:
   contents: read
@@ -19,7 +17,7 @@ jobs:
 
   ci-validation:
 
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     env:
       App_ENV: testing
       DB_CONNECTION: mysql
