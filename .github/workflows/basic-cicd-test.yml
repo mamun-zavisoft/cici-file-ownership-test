@@ -19,7 +19,7 @@ jobs:
 
   ci-validation:
 
-    runs-on: self-hosted
+    runs-on: ubuntu
     env:
       App_ENV: testing
       DB_CONNECTION: mysql
